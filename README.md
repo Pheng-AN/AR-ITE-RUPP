@@ -51,6 +51,9 @@ The app has not been released to the public on a mobile app store, but the code 
 ### Screenshots:
 <p float="left" align="middle">
     <img src="Screenshots/20250620_193840.jpg" width="30%"/>
+    <img src="Screenshots/Screenshot_20250620-165823_AR ITE.jpg" width="30%"/>
+    <img src="Screenshots/Screenshot_20250620-173639_AR ITE.jpg" width="30%"/>
+    <img src="Screenshots/Screenshot_20250620-180055_AR ITE.jpg" width="30%"/>
 
 </p>
 
