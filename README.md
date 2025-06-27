@@ -42,9 +42,11 @@ The app has not been released to the public on a mobile app store, but the code 
 
 4. Follow the steps below in the ['ARCore Geospatial API Key'](#setup-geo-ar) section
 
-5. Follow the steps below in the ['Firestore Database'](#setup-firestore) section
+5. Follow the steps below in the ['TTS API Key'](#setup-tts-ar) section
 
-6. Deploy to an [ARCore compatible device](https://developers.google.com/ar/discover/supported-devices).
+6. Follow the steps below in the ['Firestore Database'](#setup-firestore) section
+
+7. Deploy to an [ARCore compatible device](https://developers.google.com/ar/discover/supported-devices).
 
 <br />
 
@@ -75,6 +77,30 @@ Add the API Key to your Unity Project:
 4. 'Geospatial' should be turned on
 
 <br />
+
+<a name="setup-tts-ar"></a>
+
+### TexTtoSpeech API Key
+
+You will need an API Key with ARCore Geospatial API enabled for your app to use GeoAR features.
+
+Follow the steps [here to in order to obtain an API key.](https://cloud.google.com/text-to-speech?hl=en)
+
+Add the API Key to your Unity Prefab Scenes:
+1. Open Unity Prefab Scenes
+
+2. In 'TTS Manager', click on 'API keys'
+
+3. Past the API Key into the 'Api Key' textfield
+
+4. Audio Encoding 'Mp3' as defualt audio clip file
+
+5. 'TexttoSpeech' should be heard from devices when close to prefabs with dynamic 'Speak' button
+
+<br />
+
+### TTS Setup:
+![Image](https://github.com/user-attachments/assets/945e7f4b-f7ab-46c1-85b7-1868b1db0fd9)
 
 <a name="setup-firestore"></a>
 
