@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/firebase_database_url,@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_app_id">
+  <string name="firebase_database_url" translatable="false">https://webvr-98666-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+  <string name="gcm_defaultSenderId" translatable="false">20845618478</string>
+  <string name="google_storage_bucket" translatable="false">webvr-98666.appspot.com</string>
+  <string name="project_id" translatable="false">webvr-98666</string>
+  <string name="google_app_id" translatable="false">1:20845618478:android:c1a6cb0bf0b8f2e60e86bf</string>
+</resources>
