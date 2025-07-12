@@ -28,6 +28,7 @@ The app has not been released to the public on a mobile app store, but the code 
 - [Unity App](#setup-unity)
 - [ARCore Geospatial API Key](#setup-geo-ar)
 - [Firestore Database (optional)](#setup-firestore)
+- [Client Setup](#setup-app)
 
 <br />
 
@@ -46,7 +47,9 @@ The app has not been released to the public on a mobile app store, but the code 
 
 6. Follow the steps below in the ['Firestore Database'](#setup-firestore) section
 
-7. Deploy to an [ARCore compatible device](https://developers.google.com/ar/discover/supported-devices).
+7. Follow the steps below in the ['Client Setup'](#setup-app) section
+
+8. Deploy to an [ARCore compatible device](https://developers.google.com/ar/discover/supported-devices).
 
 <br />
 
@@ -140,6 +143,34 @@ If Firebase is using a newer EDM we suggest installing the lite version of ARCor
 
 8. Now place the 'google-services.json' config file in the 'StreamingAssets' folder within the Unity project. (Assets -> StreamingAssets -> 'google-services.json').
 
+<br />
+
+<a name="setup-app"></a>
+
+### Client Setup
+
+### 1. USER ACTIONS
+Represents the Mobile User’s interactions through the AR app:[here](https://ruppedukh-my.sharepoint.com/:u:/g/personal/thoeun_pisethta_2821_rupp_edu_kh/EfzfUkmoJPxDolK4XCqnzg4BLf9Yb0i8zRtuZbKBrPoqsQ?e=DzCVT6)
+* Start User Session: Launches the AR experience. (Android API 24)
+* Permissions: allow Camera, Locations or GPS, Internets Access.
+
+### 2. ADMIN ACTIONS
+Describes how an admin adds content via the Web Admin Panel:[here](https://github.com/Vignou/web_AR_SE.git).
+* Start Admin Session: Admin logs into the dashboard.
+* Enter Object Name or Code
+* Enter Descriptions
+* Place Object on Map UI
+* Enter Altitude (Optional)
+
+### 3. SYSTEM PROCESSING
+Handles backend processes:
+* Store Data: Saves geo-based content into FirebaseFirestore
+* Process TTS: Generates speech output when users walk near to the object.
+
+### 4. SYSTEM COMPONENTS
+* Mobile AR App and Web Admin Panel are linked to their respective users.
+* All flow routes pass through the appropriate system channels and interact
+with Firebase
 <br />
 
 ------------
