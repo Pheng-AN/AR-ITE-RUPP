@@ -150,12 +150,12 @@ If Firebase is using a newer EDM we suggest installing the lite version of ARCor
 ### Client Setup
 
 ### 1. USER ACTIONS
-Represents the Mobile User’s interactions through the AR app:[here](https://ruppedukh-my.sharepoint.com/:u:/g/personal/thoeun_pisethta_2821_rupp_edu_kh/EfzfUkmoJPxDolK4XCqnzg4BLf9Yb0i8zRtuZbKBrPoqsQ?e=DzCVT6)
+Represents the Mobile User’s interactions through the AR app: [here](https://ruppedukh-my.sharepoint.com/:u:/g/personal/thoeun_pisethta_2821_rupp_edu_kh/EfzfUkmoJPxDolK4XCqnzg4BLf9Yb0i8zRtuZbKBrPoqsQ?e=DzCVT6)
 * Start User Session: Launches the AR experience. (Android API 24)
 * Permissions: allow Camera, Locations or GPS, Internets Access.
 
 ### 2. ADMIN ACTIONS
-Describes how an admin adds content via the Web Admin Panel:[here](https://github.com/Vignou/web_AR_SE.git).
+Describes how an admin adds content via the Web Admin Panel: [here](https://github.com/Vignou/web_AR_SE.git)
 * Start Admin Session: Admin logs into the dashboard.
 * Enter Object Name or Code
 * Enter Descriptions
